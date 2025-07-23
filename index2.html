@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sabin S - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f9fafb;
+      color: #333;
+    }
+    header {
+      background: #2563eb;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { font-size: 1.2rem; }
+
+    section {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2.section-title {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: #111827;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #1e3a8a;
+    }
+    .card p { font-size: 0.95rem; line-height: 1.5; }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #e5e7eb;
+      font-size: 0.9rem;
+    }
+    .contact-links a {
+      display: inline-block;
+      margin: 0 10px;
+      color: #2563eb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sabin S</h1>
+    <p>Electronics & Communication Engineer</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I am an Electronics & Communication Engineering student with a strong foundation in VLSI, embedded systems, and PCB design. Passionate about turning theoretical ideas into practical prototypes, I’ve built solar tracking systems, automation tools, and IoT circuits. I'm currently pursuing advanced training in VLSI design and am eager to join a core electronics company where I can grow and contribute to innovative semiconductor technologies.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Skills</h2>
+    <div class="card-grid">
+      <div class="card"><h3>Languages</h3><p>Verilog, C, Embedded C</p></div>
+      <div class="card"><h3>Tools</h3><p>EasyEDA, Xilinx ISE, Multisim, LTspice</p></div>
+      <div class="card"><h3>Microcontrollers</h3><p>Arduino Uno, NodeMCU</p></div>
+      <div class="card"><h3>VLSI</h3><p>Placement & Routing (basic)</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Projects</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Hybrid Sun Tracking Solar System</h3>
+        <p>Arduino-based dual-axis solar panel tracker with LDR and piezo sensors to optimize energy collection in all weather conditions.</p>
+      </div>
+      <div class="card">
+        <h3>Motion Sensor Welcome System</h3>
+        <p>PIR motion sensor with Arduino to play audio messages when guests arrive. Used live during campus functions.</p>
+      </div>
+      <div class="card">
+        <h3>Water Level Indicator</h3>
+        <p>Custom PCB-based water level indicator circuit with LED alerts to detect and display tank fill levels.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Certifications</h2>
+    <ul>
+      <li>✅ Verilog HDL & Digital Design – Maven Silicon (2025)</li>
+      <li>✅ PCB Design – Kutty Electronics (2024)</li>
+      <li>✅ 5G/6G mmWave – CIET Webinar (2023)</li>
+      <li>🎓 VLSI Design Training – Ongoing (June 2025)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:sabin.sp2005@gmail.com">sabin.sp2005@gmail.com</a></p>
+    <div class="contact-links">
+      <a href="https://linkedin.com/in/sabin-s-a1333831a" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Sabinsvg" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Sabin S. Designed with 💡 and 💻</p>
+  </footer>
+</body>
+</html>
